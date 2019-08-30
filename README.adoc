@@ -1,0 +1,28 @@
+= IBM Cloud Functions Demo
+
+This is very simple and straight forward IBM Cloud Functions demonstration.
+
+What it does:
+
+* Simple Hello World! function.
+* Shows how to use CLI to deploy and undeploy a simple function.
+
+== Usage, part 1
+
+* You need https://cloud.ibm.com[IBM Cloud] account.
+* You need to setup https://cloud.ibm.com/docs/cli[IBM Cloud CLI].
+** and https://cloud.ibm.com/functions/learn/cli[Functions CLI].
+* You need to login to IBM Cloud using CLI.
+** `ibncloud login`
+** `ibmcloud target -g default`
+* Then you can continue to part 2.
+
+== Usage, part 2
+
+* Clone this repository to your local machine.
+* Execute:
+** `sh deploy.sh`
+* Go to your Functions URL to see the greeting.
+* Undeploy:
+** `sh undeploy.sh`
+
