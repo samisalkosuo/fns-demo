@@ -1,5 +1,10 @@
 function main({name}) {
 
+  /*
+  Documentation:
+  https://cloud.ibm.com/docs/openwhisk?topic=cloud-functions-getting-started
+  */
+
   var msg = 'Hello World!';
   if (name) {
     msg = `Hello, ${name}!`

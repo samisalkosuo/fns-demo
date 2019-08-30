@@ -1,6 +1,6 @@
 = IBM Cloud Functions Demo
 
-This is very simple and straight forward IBM Cloud Functions demonstration.
+This is very simple and straight forward https://cloud.ibm.com/functions/[IBM Cloud Functions] demonstration.
 
 What it does:
 
